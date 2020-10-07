@@ -102,3 +102,16 @@ dist
 
 # TernJS port file
 .tern-port
+.babelrc
+.browserslistrc
+.editorconfig
+.prettierrc
+package-lock.json
+package.json
+README.md
+postcss.config.js
+webpack/config.js
+webpack/configs/development.js
+webpack/configs/production.js
+webpack/configs/shared.js
+webpack/utils/paths.js
