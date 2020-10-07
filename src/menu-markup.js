@@ -1,12 +1,12 @@
-import foodCards from "./menu.json";
-import foodServiceTemplate from "./food-service.hbs";
+import foodCards from './menu.json';
+import foodServiceTemplate from './food-service.hbs';
 
-const menuGallery = document.querySelector("ul.js-menu");
+const menuGallery = document.querySelector('ul.js-menu');
 
-function createFoodServiceMarkup(foodCards) {
-    return foodServiceTemplate(foodCards);
-};
+// function createFoodServiceMarkup(foodCards) {
+//     return foodServiceTemplate(foodCards);
+// }
 
-const cardsMarkup = createFoodServiceMarkup(foodCards);
+const cardsMarkup = foodServiceTemplate(foodCards);
 
-menuGallery.insertAdjacentHTML("beforeend", cardsMarkup);
+menuGallery.insertAdjacentHTML('beforeend', cardsMarkup);
